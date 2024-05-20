@@ -52,6 +52,12 @@ dc = nr dev:child
 dm = nr dev:master
 dt = nr dev:teacher
 
-script = nr script:child
-script = nr script:master
-script = nr script:teacher
+scc = nr script:child
+scm = nr script:master
+sct = nr script:teacher
+
+
+br = bun run $1
+
+
+vs = code $1
