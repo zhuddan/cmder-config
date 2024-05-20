@@ -43,7 +43,7 @@ gcd = git clone $1 $2
 
 tp = git clone https://github.com/zhuddan/$1 $2
 
-lite = git clone https://github.com/zhuddan/lite $2
+lite = git clone https://github.com/zhuddan/lite $1
 
 dz = degit clone https://github.com/zhuddan/$1
 
