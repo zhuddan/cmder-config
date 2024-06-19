@@ -58,6 +58,7 @@ scc = nr script:child
 scm = nr script:master
 sct = nr script:teacher
 
+init = npm init -y
 
 br = bun run $1
 
