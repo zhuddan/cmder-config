@@ -62,4 +62,4 @@ dz = degit clone https://github.com/zhuddan/$1
 
 t = tar -cvf $1.tar ./$1
 
-vs = code $1 && ni
+vs = code . && ni
