@@ -16,7 +16,12 @@ cmderr=cd /d "%CMDER_ROOT%"
 pwsh=%SystemRoot%/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command "Invoke-Expression '. ''%CMDER_ROOT%/vendor/profile.ps1'''"
 
 
+vs = code $1
+ci = code . && ni
+
+br = bun run $1
 pi = pnpm i
+init = npm init -y
 
 d = nr dev
 s = nr serve
@@ -28,28 +33,6 @@ pull = git pull
 ss = nr script
 ruoyi = nr ruoyi
 
-dist = start dist
-
-. = start .
-
-p = E:\project\
-zd = E:\project\zd\
-star = E:\project\star\
-
-gc = git clone $1
-
-gcd = git clone $1 $2
-
-
-tp = git clone https://github.com/zhuddan/$1 $2
-
-lite = git clone https://github.com/zhuddan/lite $1
-
-dz = degit clone https://github.com/zhuddan/$1
-
-t = tar -cvf $1.tar ./$1
-
-
 dc = nr dev:child
 dm = nr dev:master
 dt = nr dev:teacher
@@ -58,9 +41,19 @@ scc = nr script:child
 scm = nr script:master
 sct = nr script:teacher
 
-init = npm init -y
+dist = start dist
+. = start .
+p = E:\project\
+zd = E:\project\zd\
+star = E:\project\star\
+zd = star %userprofile%
 
-br = bun run $1
+gc = git clone $1
+gcd = git clone $1 $2
+tp = git clone https://github.com/zhuddan/$1 $2
+lite = git clone https://github.com/zhuddan/lite $1
+dz = degit clone https://github.com/zhuddan/$1
+
+t = tar -cvf $1.tar ./$1
 
 
-vs = code $1
