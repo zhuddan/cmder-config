@@ -17,9 +17,9 @@ pwsh=%SystemRoot%/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolic
 
 vs = code . && if exist package.json (if not exist node_modules (echo Detecting new dependencies, starting npm install... && ni) else (echo installed) ) else (echo No package.json found, skipping npm install)
 
-init = npm init -y
-
 br = bun run $1
+
+init = npm init -y
 
 pi = pnpm i
 
@@ -43,12 +43,12 @@ sct = nr script:teacher
 
 
 dist = start dist
-
 . = start .
 
 p = E:\project\
 zd = E:\project\zd\
 star = E:\project\star\
+yobaci = C: && cd %userprofile%
 
 gc = git clone $1
 
