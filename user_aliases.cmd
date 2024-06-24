@@ -33,15 +33,6 @@ pull = git pull
 ss = nr script
 ruoyi = nr ruoyi
 
-dc = nr dev:child
-dm = nr dev:master
-dt = nr dev:teacher
-
-scc = nr script:child
-scm = nr script:master
-sct = nr script:teacher
-
-
 dist = start dist
 . = start .
 
