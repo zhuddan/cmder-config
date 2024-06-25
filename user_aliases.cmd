@@ -15,7 +15,7 @@ vi=vim $*
 cmderr=cd /d "%CMDER_ROOT%"
 pwsh=%SystemRoot%/System32/WindowsPowerShell/v1.0/powershell.exe -ExecutionPolicy Bypass -NoLogo -NoProfile -NoExit -Command "Invoke-Expression '. ''%CMDER_ROOT%/vendor/profile.ps1'''"
 
-vs = code . && if exist package.json (if not exist node_modules (echo Detecting new dependencies, starting npm install... && ni) else (echo installed) ) else (echo No package.json found, skipping npm install)
+vs = code . && if exist package.json (if not exist node_modules (echo Detecting new dependencies, starting npm install... && ni) else (echo installed) ) else (echo No package.json found, skipping install...)
 
 br = bun run $1
 
