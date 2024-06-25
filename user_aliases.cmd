@@ -24,27 +24,35 @@ init = npm init -y
 pi = pnpm i
 
 d = nr dev
+
 s = nr serve
+
 p = nr preview
-l = nr local
+
 b = nr build
+
 es = nr eslint
-pull = git pull
+
 ss = nr script
+
 ruoyi = nr ruoyi
 
 dist = start dist
 . = start .
 
 p = E:\project\
+
 zd = E:\project\zd\
+
 star = E:\project\star\
+
 yobaci = C: && cd %userprofile%
+
+pull = git pull
 
 gc = git clone $1
 
 gcd = git clone $1 $2
-
 
 tp = git clone https://github.com/zhuddan/$1 $2
 
@@ -52,5 +60,5 @@ lite = git clone https://github.com/zhuddan/lite $1
 
 dz = degit clone https://github.com/zhuddan/$1
 
-t = tar -cvf $1.tar ./$1
+tr = tar -cvf $1.tar ./$1
 
