@@ -54,11 +54,8 @@ gc = git clone $1
 
 gcd = git clone $1 $2
 
-tp = git clone https://github.com/zhuddan/$1 $2
-
-lite = git clone https://github.com/zhuddan/lite $1
-
-dz = degit clone https://github.com/zhuddan/$1
+templete = git clone https://github.com/zhuddan/templete-$1 $2
 
 tr = tar -cvf $1.tar ./$1
 
+hs = http-server.cmd -c-1 --cors
