@@ -54,7 +54,7 @@ gc = git clone $1
 
 gcd = git clone $1 $2
 
-templete = git clone https://github.com/zhuddan/templete-$1 $2
+template = git clone https://github.com/zhuddan/template-$1 $2
 
 tr = tar -cvf $1.tar ./$1
 
