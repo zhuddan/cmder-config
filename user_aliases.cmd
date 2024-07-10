@@ -59,3 +59,6 @@ template = git clone https://github.com/zhuddan/template-$1 $2
 tr = tar -cvf $1.tar ./$1
 
 hs = http-server.cmd -c-1 --cors
+
+
+eslint-init = npx @antfu/eslint-config@2.21.3
